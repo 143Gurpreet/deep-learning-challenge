@@ -26,6 +26,7 @@ Configuration:
 * Number of input features: 49.
 * Three hidden layers with 15, 10, and 5 units, respectively.
 * Epochs: 100.
+
 Result:
 * Model accuracy: 72%.
 
@@ -36,6 +37,7 @@ Configuration:
 * Number of input features: 40.
 * Four hidden layers with 10, 8, 7, and 5 units initially, then changed to 30, 20, 10, and 15 units in a subsequent test.
 * Epochs: 100.
+
 Result:
 * Model accuracy: 72%.
 
@@ -46,6 +48,7 @@ Configuration:
 * Number of input features: 50.
 * Two hidden layers with 22 and 30 units, respectively.
 * Epochs: 200.
+
 Result:
 * Model accuracy remained at 72% for both sets of unit configurations.
 
@@ -73,5 +76,9 @@ Training Parameters: Varied the number of training epochs and the random state.
 
 Summary
 The deep learning model, designed to tackle the classification problem presented by the AlphabetSoupCharity dataset, underwent several rounds of optimization. Despite these efforts, the model consistently achieved an accuracy of approximately 72%. The optimizations involved:
-* Adjusting data preprocessing, particularly in binning strategies for categorical variables.
+
+Modifying the neural network architecture, experimenting with different numbers of hidden layers and neurons.
+Varying training parameters, including the number of epochs and random state settings.
+The stable accuracy across different configurations suggests that the model is robust to these changes but is possibly limited by the inherent complexity of the data or the representational capacity of the chosen architecture.
+
 
