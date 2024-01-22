@@ -8,14 +8,18 @@ Data Preprocessing
 
    The target variable is the 'IS_SUCCESSFUL' column 
 3. What variable(s) are the features for your model?
-              The feature variables are every other column from dataframe .  this was   defined by    
-              dropping the 'IS_SUCCESSFUL' column from the original dataframe.
-4. What variable(s) should be removed from the input data because they are neither targets nor features?
-              Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither  
-              targets nor features for the dataset.
+
+   The feature variables are every other column from dataframe .  this was   defined by    
+    dropping the 'IS_SUCCESSFUL' column from the original dataframe.
+5. What variable(s) should be removed from the input data because they are neither targets nor features?
+
+   Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither  
+    targets nor features for the dataset.
 
 Compiling, Training, and Evaluating the Model
+
 AlphabetSoupCharity_Optimization
+
 Configuration:
 * Cutoff for 'APPLICATION_TYPE' and 'CLASSIFICATION': 200 and 100, respectively, with an aim for more binning.
 * Random state set to 72.
@@ -47,17 +51,22 @@ Result:
 
 
 Compiling, Training, and Evaluating the Model
+
 4. How many neurons, layers, and activation functions did you select for your neural network model, and why?
-                     In first attempt Three hidden layers with 15, 10, and 5 units, respectively.
-                     In seconed  attempt  Four hidden layers with 10, 8, 7, and 5 units initially,      
-                     then changed to 30, 20, 10, and 15 units in a subsequent test.
-                      Third attempt  Two hidden layers with 22 and 30 units, respectively. 
+
+   In first attempt Three hidden layers with 15, 10, and 5 units, respectively.
+   In seconed  attempt  Four hidden layers with 10, 8, 7, and 5 units initially,      
+    then changed to 30, 20, 10, and 15 units in a subsequent test.
+   Third attempt  Two hidden layers with 22 and 30 units, respectively. 
+
     Reason of added layers were just random guess to check the model performance.
 
-5. Were you able to achieve the target model performance?
-               I was not able to achieve the 75% model accuracy target
+6. Were you able to achieve the target model performance?
 
-6. What steps did you take in your attempts to increase model performance?
+   I was not able to achieve the 75% model accuracy target
+
+8. What steps did you take in your attempts to increase model performance?
+
 Data Preprocessing: Adjusted binning strategies and varied the number of input features.
 Neural Network Architecture: Experimented with different numbers of hidden layers and neurons.
 Training Parameters: Varied the number of training epochs and the random state.
