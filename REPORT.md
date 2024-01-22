@@ -5,11 +5,12 @@ The purpose of the charity funding analysis for Alphabet Soup was to predict whe
 Results:
 Data Preprocessing
 1. What variable(s) are the target(s) for your model?
-                The target variable is the 'IS_SUCCESSFUL' column 
-2. What variable(s) are the features for your model?
+
+   The target variable is the 'IS_SUCCESSFUL' column 
+3. What variable(s) are the features for your model?
               The feature variables are every other column from dataframe .  this was   defined by    
               dropping the 'IS_SUCCESSFUL' column from the original dataframe.
-3. What variable(s) should be removed from the input data because they are neither targets nor features?
+4. What variable(s) should be removed from the input data because they are neither targets nor features?
               Both 'EIN' and 'NAME' columns were dropped/removed, because they were neither  
               targets nor features for the dataset.
 
