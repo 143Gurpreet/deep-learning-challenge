@@ -1,6 +1,6 @@
 # deep-learning-challenge
 Overview:
-the analysis aimed to combine data preprocessing, deep learning model development, and iterative optimization to address a complex classification problem, with the ultimate goal of providing actionable insights and effective predictive capabilities
+The purpose of the charity funding analysis for Alphabet Soup was to predict where the company would approve/make investments. Our goal was to use machine learning and neural networks to apply target/features on the dataset, create a binary classifier that was capable of predicting whether investors would be successful if funded by Alphabet Soup. We started with 34,000 organizations and 12 columns that captured the metadata about each organization and their past funding outcomes.
 
 Results:
 Data Preprocessing
